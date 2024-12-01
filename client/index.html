@@ -3,14 +3,25 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/style.css">
 	<title>Accueil - CourseNotes</title>
 </head>
 <body>
 
+	<input type="checkbox" id="topbar__isNavDisplayed" class="switchInput">
+
 	<header class="topbar">
-		<h1 class="topbar__logo">
-			<a href="#" class="topbar__logoAnchor">CourseNotes</a>
-		</h1>
+
+		<div class="topbar__beforeNav">
+
+			<label for="topbar__isNavDisplayed" class="switchBtn topbar__navToggleBtn"></label>
+
+			<h1 class="topbar__logo">
+				<a href="#" class="topbar__logoAnchor">CourseNotes</a>
+			</h1>
+
+		</div>
+
 		<nav class="topbar__nav">
 			<ul class="topbar__navList">
 

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Malgun Gothic';
+    src: url('../fonts/malgun-gothic.ttf');
+    font-weight: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Malgun Gothic';
+    src: url('../fonts/malgun-gothic-bold.ttf');
+    font-weight: bold;
+}

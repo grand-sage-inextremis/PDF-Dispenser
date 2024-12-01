@@ -1,0 +1,80 @@
+@media (min-width: 30rem) {
+
+
+
+	/* Whole topbar */
+
+
+	.topbar
+	{
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content:space-between;
+		align-items: stretch;
+
+		background-color: var(--main-red);
+		box-shadow: 0 -2em 1em 2em #000;
+	}
+
+
+
+	/* Left part of the topbar */
+
+
+	.topbar__navToggleBtn
+	{
+		display: none;
+	}
+
+
+
+	/* Navigation menu */
+	
+	.topbar__navList
+	{
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: stretch;
+
+		height: 100%;
+	}
+
+
+
+	.topbar__navAnchor
+	{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+
+		height: 100%;
+		padding-left: min(5vw, 1.8em);
+		padding-right: min(5vw, 1.8em);
+	}
+
+
+
+	.topbar__navAnchor:hover
+	{
+		border-bottom: solid #fff 3px;
+	}
+
+	
+	
+}
+
+
+
+@media (min-width: 40rem) {
+
+
+
+	.topbar::after
+	{
+		content: '';
+		display: block;
+	}
+
+
+	
+}

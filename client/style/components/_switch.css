@@ -1,0 +1,11 @@
+.switchInput
+{
+    display: none;
+}
+
+
+
+.switchBtn:hover
+{
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-size: inherit;
+    text-align: inherit;
+    
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    text-decoration: inherit;
+    list-style-type: inherit;
+
+    color: inherit;
+}
+
+
+
+:root
+{
+    font-size: 16px;
+    font-family: 'Malgun Gothic';
+    font-style: normal;
+    text-decoration: none;
+
+    color: black;
+}
+
+
+
+body
+{
+    position: relative;
+}

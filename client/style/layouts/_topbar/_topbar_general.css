@@ -1,0 +1,47 @@
+/* Whole topbar */
+
+
+.topbar
+{
+	display: block;
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 100vw;
+
+	text-align: center;
+
+	list-style-type: none;
+	color: #fff;
+}
+
+
+
+/* First part of the topbar */
+
+
+.topbar__logoAnchor
+{
+	display: block;
+	padding: 0.3em 0.7em;
+
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+
+
+/* Navigation menu */
+
+
+.topbar__navAnchor
+{
+	display: block;
+}
+
+
+
+.topbar__navAnchor:hover
+{
+	background-color: var(--lighter-red);
+}

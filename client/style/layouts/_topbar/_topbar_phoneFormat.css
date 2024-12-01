@@ -1,0 +1,103 @@
+@media (max-width: 30rem) {
+
+
+
+	/* Whole topbar */
+
+
+	.topbar
+	{
+		background-color: var(--light-red);
+	}
+
+
+
+	#topbar__isNavDisplayed:checked ~ .topbar
+	{
+		height: 100vh;
+	}
+	
+
+	
+	/* Part of the topbar that is always displayed */
+
+
+	.topbar__beforeNav
+	{
+		display: block;
+		background-color: var(--main-red);
+		box-shadow: 0 -2em 1em 2em #000;
+	}
+	
+	
+	
+	.topbar__navToggleBtn
+	{
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+	
+		height: 100%;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	
+	
+	
+	.topbar__navToggleBtn::before
+	{
+		content: "≡";
+		font-size: 1.5em;
+	}
+
+
+
+	#topbar__isNavDisplayed:checked ~ * .topbar__navToggleBtn::before
+	{
+		content: "×";
+	}
+	
+	
+	
+	.topbar__logo
+	{
+		display: inline-block;
+	}
+	
+	
+	
+	/* Navigation menu */
+	
+	
+	.topbar__nav
+	{
+		display: block;
+	}
+	
+	
+	
+	#topbar__isNavDisplayed:not(:checked) ~ * .topbar__nav
+	{
+		display: none;
+	}
+	
+	
+	
+	.topbar__navList
+	{
+		display: block;
+		padding: 0.5em 0;
+	}
+
+
+
+	.topbar__navAnchor
+	{
+		padding-top: 0.3em;
+		padding-bottom: 0.3em;
+	}
+
+
+
+}
