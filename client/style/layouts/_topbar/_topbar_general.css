@@ -4,7 +4,7 @@
 .topbar
 {
 	display: block;
-	position: sticky;
+	position: relative;
 	top: 0;
 	left: 0;
 	width: 100vw;
@@ -13,6 +13,21 @@
 
 	list-style-type: none;
 	color: #fff;
+}
+
+
+
+@media (min-height: 25rem) {
+
+
+
+	.topbar
+	{
+		position: sticky;
+	}
+
+
+	
 }
 
 
